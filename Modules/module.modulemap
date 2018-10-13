@@ -1,0 +1,6 @@
+framework module XavierPassportNs {
+  umbrella header "XavierPassportNs.h"
+
+  export *
+  module * { export * }
+}

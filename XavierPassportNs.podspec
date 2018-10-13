@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "XavierPassportNs"
-  spec.version      = "0.0.9"
+  spec.version      = "0.1.0"
   spec.summary      = "Xavier Framework for Passport Scanner"
 
   # This description is used to generate tags and improve search results.
@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #
 
   #spec.source_files = "*"
-  spec.source_files  = "Headers/*.{h,m}"
+  #spec.source_files  = "Headers/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -121,7 +121,10 @@ Pod::Spec.new do |spec|
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
-
+  spec.requires_arc     = true
+  spec.source_files     = '*.h;Headers/*.h'
+  spec.libraries        = 'c++'
+  spec.vendored_libraries = 'Xavier'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

@@ -21,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		50643031216D5274002C5953 /* XavierPassportNs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XavierPassportNs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5069969A2172739700C67D99 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		5069969B217273C300C67D99 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		50C6FED7216F175E00DEA291 /* Xavier */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = Xavier; sourceTree = "<group>"; };
 		50C6FED9216F175E00DEA291 /* XavierPassportNs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XavierPassportNs.h; sourceTree = "<group>"; };
 		50C6FEDA216F175F00DEA291 /* iso3.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = iso3.plist; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		50643027216D5274002C5953 = {
 			isa = PBXGroup;
 			children = (
+				506996992172739700C67D99 /* Modules */,
 				50C6FEF3216F1B1500DEA291 /* Info.plist */,
 				50C6FED5216F175E00DEA291 /* Headers */,
 				50C6FEDA216F175F00DEA291 /* iso3.plist */,
@@ -67,6 +70,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		506996992172739700C67D99 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5069969A2172739700C67D99 /* module.modulemap */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
 		50C6FED5216F175E00DEA291 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +86,7 @@
 				50C6FEE4216F190300DEA291 /* SCIProcessor.h */,
 				50C6FEE7216F190300DEA291 /* SCIXavierViewController.h */,
 				50C6FEE6216F190300DEA291 /* SCIXavierWidgetView.h */,
+				5069969B217273C300C67D99 /* module.modulemap */,
 			);
 			path = Headers;
 			sourceTree = "<group>";

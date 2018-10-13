@@ -123,8 +123,8 @@ Pod::Spec.new do |spec|
   # spec.libraries = "iconv", "xml2"
   spec.requires_arc     = true
   spec.source_files     = '*.h;Headers/*.h;Xavier'
-  spec.libraries        = 'c++'
-  spec.vendored_libraries = 'Xavier'
+  #spec.libraries        = 'c++'
+  #spec.vendored_libraries = 'Xavier'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

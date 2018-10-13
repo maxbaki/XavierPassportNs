@@ -1,0 +1,8 @@
+module XavierPassportNs { explicit module XavierPassportNs {
+    header "XavierPassportNs.h"
+    header "SCIXavierWidgetView.h"
+    header "SCIXavierViewController.h"
+    header "SCIProcessor.h"
+    header "SCIMetrics.h"
+    header "SCIImageProcessor.h"    
+} }
